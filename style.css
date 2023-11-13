@@ -1,0 +1,41 @@
+:root{
+    --black: #000;
+    --blacki: #0a0a0a;
+
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-light{
+    background-color: var(--blacki) !important;
+}
+.navbar{
+    min-height: 5rem;
+}
+i.lead{
+    font-size: 1.8rem;
+}
+video {
+    margin:0 auto;
+    margin-top: 2rem;
+    display:block;
+    width:100%;
+  }
+.lista{
+    margin-top: 2.5rem;
+    padding: 0%;
+}
+.box{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: chartreuse;
+    border-radius: 2em;
+    list-style: none;
+}
+.box a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    font-weight: bold;
+}
